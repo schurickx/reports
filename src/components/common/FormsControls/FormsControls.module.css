@@ -1,0 +1,45 @@
+.formControl.error textarea,
+.formControl.error input,
+.formControl.error select {
+    border: solid red 2px;
+}
+
+.formControl.error span {
+    color: red;
+}
+
+.input {
+    display: inline-block;
+    outline: none;
+    border: 1px solid #c8c7c7;
+    background-color: #ffffff !important;
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 4px;
+    padding: 3px 5px;
+}
+
+.select {
+    border: none;
+    min-width: 90px;
+    max-height: 29px;
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 4px;
+    background-color: #336fb9;
+    color: #ffffff;
+    letter-spacing: .4px;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.select option {
+    background-color: #dce8ff;
+    color: #376287;
+    font-size: 14px;
+}

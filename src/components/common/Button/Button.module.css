@@ -1,0 +1,43 @@
+.button {
+    border: none;
+    min-width: 90px;
+    max-height: 29px;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 5px 12px;
+    border-radius: 4px;
+
+    background-color: #336fb9;
+    color: #ffffff;
+    letter-spacing: .4px;
+    user-select: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:active, .button:focus {
+    outline: none;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px 1px rgba(0,0,0,.23);
+}
+
+.redButton {
+    background-color: #d54b32;
+}
+
+.blueButton {
+    background-color: #336fb9;
+}
+
+.greenButton {
+    background-color: #1e7e34;
+}
+
+.darkBlueButton {
+    background-color: #103173;
+}

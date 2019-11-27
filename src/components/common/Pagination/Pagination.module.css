@@ -1,0 +1,9 @@
+li {
+    display: inline;
+    margin-right: 0.3rem;
+    cursor: pointer;
+}
+
+.active {
+    font-weight: 900;
+}

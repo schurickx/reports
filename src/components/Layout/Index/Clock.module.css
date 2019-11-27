@@ -1,0 +1,9 @@
+.clock {
+    color: gray;
+    font-size: 3rem
+}
+
+.clock span {
+    color: gray;
+    font-size: 6rem
+}

@@ -1,0 +1,62 @@
+.container {
+    padding: 10px 0px 0;
+    background-color: #376fb9;
+    color: #ffffff;
+    z-index: 10;
+    position: relative;
+    overflow: hidden;
+    background-position: 95% -32%;
+    font-family: "Calibri", sans-serif;
+}
+
+.backgroundImage {
+    background-image: url("../../../img/header_logo.png");
+    background-position: right bottom -60px;
+    background-size: 390px 180px;
+    background-repeat: no-repeat;
+}
+
+
+.ministrySection {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.logout {
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.ministry {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.library {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+@media (max-width: 562px) {
+    .container {
+        height: 200px;
+    }
+
+    .backgroundImage {
+        height: 190px;
+    }
+
+    .ministryIcon {
+        margin-right: 10px;
+    }
+}
